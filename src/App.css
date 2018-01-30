@@ -12,6 +12,15 @@
   height: 150px;
   padding: 20px;
   color: white;
+  display: flex;
+}
+.App-col {
+  flex: 1;
+}
+
+.Col-right {
+  justify-content: flex-end;
+  text-align: right;
 }
 
 .App-title {
